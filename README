@@ -16,3 +16,5 @@ hibernate:
      - persistencia.dao (Aqui os métodos que farão o trabalho sujo [salvar, consultar..])
 	ex: ClienteDao, PedidoDao, ItemDao, ProdutoDao
 	Aqui utilizaremos as classes HibernateUtil e Session, para persistir os objetos do pacote persistencia.entidades no banco
+
+...
